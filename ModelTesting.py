@@ -8,7 +8,7 @@ validation_dir = 'path/to/validation_data'
 test_dir = 'path/to/test_data'
 
 # Load the saved model
-model = tf.keras.models.load_model('currency_note_classifier.h5')
+model = tf.keras.models.load_model('fake_currency_detector.h5')
 
 # Test a single image
 single_image_path = ('C:/Users/redoy/Downloads/Bank Notes Real and '
